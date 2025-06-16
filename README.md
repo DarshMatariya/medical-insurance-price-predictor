@@ -1,16 +1,16 @@
-# 💰 Medical Insurance Price Predictor
+# Medical Insurance Price Predictor
 
 Predict a person’s annual medical insurance charges using demographic and lifestyle features through a supervised machine learning model.
 
 ---
 
-## 📄 Project Overview
+## Project Overview
 
 This project focuses on predicting the medical insurance cost for individuals based on attributes like age, BMI, smoking habits, and region. The dataset is sourced from Kaggle, and a Random Forest Regressor was used to model the relationships between features and cost.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 - `notebook/`: Contains the complete Jupyter notebook with data preprocessing, model training, evaluation, and visualizations.
 - `dataset/`: Includes a text file with dataset source and feature details. Dataset not uploaded due to size.
@@ -32,7 +32,7 @@ This project focuses on predicting the medical insurance cost for individuals ba
 
 ---
 
-## 🔧 Workflow Overview
+## Workflow Overview
 
 - Handle missing/duplicate entries
 - Encode categorical variables
@@ -43,7 +43,7 @@ This project focuses on predicting the medical insurance cost for individuals ba
 
 ---
 
-## 🧠 Model
+## Model
 
 - Algorithm: **Random Forest Regressor**
 - Libraries: `pandas`, `scikit-learn`, `numpy`, `matplotlib`
@@ -54,7 +54,7 @@ This project focuses on predicting the medical insurance cost for individuals ba
 
 ---
 
-## 📈 Results
+## Results
 
 Navigate to the `results/` folder to view:
 - 📊 `actual_vs_predicted.png`: scatter plot of predicted vs actual charges
@@ -63,7 +63,7 @@ Navigate to the `results/` folder to view:
 ---
 
 
-## ▶️ How to Run This Project
+## How to Run This Project
 
 1. Clone the repository:  
    git clone https://github.com/DarshMatariya/medical-insurance-price-predictor.git  
