@@ -1,12 +1,11 @@
-# Medical Insurance Price Predictor
+# Medical Insurance Price Prediction 
 
-Predict a person’s annual medical insurance charges using demographic and lifestyle features through a supervised machine learning model.
-
----
-
-## Project Overview
-
-This project focuses on predicting the medical insurance cost for individuals based on attributes like age, BMI, smoking habits, and region. The dataset is sourced from Kaggle, and a Random Forest Regressor was used to model the relationships between features and cost.
+A full-stack machine learning project to predict medical insurance costs based on user input like age, gender, BMI, number of children, smoking habits and region.  
+Built with:
+- Python, Scikit-Learn, RandomForestRegressor
+- FastAPI (Backend)
+- Streamlit (Frontend)
+- Deployed on Render / Vercel
 
 ---
 
@@ -14,6 +13,8 @@ This project focuses on predicting the medical insurance cost for individuals ba
 
 - `notebook/`: Contains the complete Jupyter notebook with data preprocessing, model training, evaluation, and visualizations.
 - `dataset/`: Includes a text file with dataset source and feature details. Dataset not uploaded due to size.
+- `backend/` : FastAPI backend (model & API)
+- `frontend/` : Streamlit frontend (UI)
 - `results/`: Holds the prediction plot (actual vs predicted) and model evaluation metrics (MAE, RMSE, R²).
 
 ---
@@ -68,10 +69,14 @@ Navigate to the `results/` folder to view:
 1. Clone the repository:  
    git clone https://github.com/DarshMatariya/medical-insurance-price-predictor.git  
 
-2. Navigate to the notebook folder:  
-   cd notebook  
+2. Run Backend:
+   cd backend
+   uvicorn main:app --reload
 
-3. Open and run the Colab notebook named 'medical_insurance_price_prediction.ipynb'.
+3. Run frontend:
+   cd frontend
+   streamlit run app.py
+
 
 
 Feel free to open issues or submit pull requests for improvements.  
