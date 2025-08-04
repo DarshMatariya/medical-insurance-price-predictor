@@ -70,12 +70,12 @@ Navigate to the `results/` folder to view:
    git clone https://github.com/DarshMatariya/medical-insurance-price-predictor.git  
 
 2. Run Backend:
-   cd backend
-   uvicorn main:app --reload
+   - cd backend
+   - uvicorn main:app --reload
 
 3. Run frontend:
-   cd frontend
-   streamlit run app.py
+   - cd frontend
+   - streamlit run app.py
 
 
 
