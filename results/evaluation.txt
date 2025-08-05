@@ -1,3 +1,0 @@
-Random Forest MAE: 2118.36
-Random Forest RMSE: 4411.39
-Random Forest R2 Score: 0.8941
